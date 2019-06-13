@@ -9,7 +9,7 @@
 var chai = require('chai');
 var StockHandler = require('../controllers/stockHandler.js');
 
-var stockPrices = new StockHandler();
+var stockPrices =  StockHandler();
 
 suite('Unit Tests', function(){
 
